@@ -16,20 +16,23 @@
 
 <body>
     <!--========== SCROLL TOP ==========-->
-    <!-- <a href="#" class="scrolltop" id="scroll-top">
+    <a href="#" class="scrolltop" id="scroll-top">
         <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
-    </a> -->
+    </a>
 
     <!--========== HEADER ==========-->
-    <header class="l-header" id="header">
+    <header class="l-header scroll-header" id="header">
         <nav class="nav bd-container">
             <a href="" class="nav__logo">Trung Tâm Dạy Học</a>
+
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link"></a>Trang chủ</li>
-                    <li class="nav__item"><a href="#contact" class="nav__link"></a>Liên hệ</li>
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Trang chủ</a></li>
+                    <li class="nav__item"><a href="#share" class="nav__link">Trang chủ</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Liên hệ</a></li>
                 </ul>
             </div>
+
             <div class="nav__toggle" id="nav-toggle">
                 <i class='bx bx-grid-alt'></i>
             </div>
@@ -37,6 +40,42 @@
     </header>
 
     <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__img">
+                    <img src="assets/img/home.png" alt="">
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Trung Tâm Dạy Học</h1>
+                    <p class="home__description">Thắp sáng ước mơ, thắp sáng niềm tin, chấp cánh tuổi trẻ, tuổi trẻ
+                        thành
+                        công</p>
+                    <a href="#" class="button">Đăng ký</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="share section bd-container" id="share">
+            <div class="share__container bd-grid">
+                <div class="share_data">
+                    <h2 class="section-title-center">Sharing Is The Best Gift <br> You Can Give</h2>
+                    <p class="share__description">Sharing these holidays is the best gift you can give, give a present
+                        or share your love with the people you love the and celebrate with great happiness.</p>
+                    <a href="#" class="button">Send a Gift</a>
+                </div>
+
+                <div class="share__img">
+                    <img src="assets/img/shared.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid"></div>
+        </section>
     </main>
 
     <!--========== FOOTER ==========-->
