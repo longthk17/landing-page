@@ -317,3 +317,32 @@ header {
 .works__img--single {
   margin: 2em 0;
 }
+
+.works__img--single:nth-child(odd) {
+  padding-top: 5em;
+}
+
+.works__img--single:nth-child(3) {
+  margin-top: -5em;
+}
+
+@media (min-width: 62em) {
+  #works h2 {
+    margin-bottom: 3em;
+  }
+
+  .works__img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .works__img--single {
+    margin: 0 5em;
+    width: 35%;
+  }
+
+  .works__img--single:nth-child(3) {
+    margin-top: 0;
+  }
+}
