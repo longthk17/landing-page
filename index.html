@@ -2,224 +2,154 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--========== BOX ICONS ==========-->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <!--========== CSS ==========-->
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title>Landing page</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <title>Portfolio</title>
 </head>
 
 <body>
-    <!--========== SCROLL TOP ==========-->
-    <a href="#" class="scrolltop" id="scroll-top">
-        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
-    </a>
-
-    <!--========== HEADER ==========-->
-    <header class="l-header scroll-header" id="header">
-        <nav class="nav bd-container">
-            <a href="" class="nav__logo">Trung Tâm Dạy Học</a>
-
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active-link">Trang chủ</a></li>
-                    <li class="nav__item"><a href="#share" class="nav__link">Share</a></li>
-                    <li class="nav__item"><a href="#decoration" class="nav__link">Decoration</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Liên hệ</a></li>
-
-                    <li class="bx bx-toggle-left change-theme" id="theme-button"></li>
-                </ul>
-            </div>
-
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-grid-alt'></i>
-            </div>
-        </nav>
-    </header>
-
-    <main class="l-main">
-        <!--========== HOME ==========-->
-        <section class="home" id="home">
-            <div class="home__container bd-container bd-grid">
-                <div class="home__img">
-                    <img src="assets/img/home.png" alt="">
-                </div>
-
-                <div class="home__data">
-                    <h1 class="home__title">Trung Tâm Dạy Học</h1>
-                    <p class="home__description">Thắp sáng ước mơ, thắp sáng niềm tin, chấp cánh tuổi trẻ, tuổi trẻ
-                        thành
-                        công</p>
-                    <a href="#" class="button">Đăng ký</a>
-                </div>
-            </div>
-        </section>
-
-        <!--========== SHARE ==========-->
-        <section class="share section bd-container" id="share">
-            <div class="share__container bd-grid">
-                <div class="share__data">
-                    <h2 class="section-title-center">Sharing Is The Best Gift <br> You Can Give</h2>
-                    <p class="share__description">Sharing these holidays is the best gift you can give, give a present
-                        or share your love with the people you love the and celebrate with great happiness.</p>
-                    <a href="#" class="button">Send a Gift</a>
-                </div>
-
-                <div class="share__img">
-                    <img src="assets/img/shared.png" alt="">
-                </div>
-            </div>
-        </section>
-
-
-        <!--========== DECORATION ==========-->
-        <section class="decoration section bd-container" id="decoration">
-            <h2 class="section-title">Give Christmas Decorations <br> For Your Home</h2>
-            <div class="decoration__container bd-grid">
-                <div class="decoration__data">
-                    <img src="assets/img/decoration1.png" alt="" class="decoration__img">
-                    <h3 class="decoration__title">Christmas Bells</h3>
-                    <a href="#" class="button button-link">Go Shopping</a>
-                </div>
-                <div class="decoration__data">
-                    <img src="assets/img/decoration2.png" alt="" class="decoration__img">
-                    <h3 class="decoration__title">Christmas Candies</h3>
-                    <a href="#" class="button button-link">Go Shopping</a>
-                </div>
-                <div class="decoration__data">
-                    <img src="assets/img/decoration3.png" alt="" class="decoration__img">
-                    <h3 class="decoration__title">Christmas Trees</h3>
-                    <a href="#" class="button button-link">Go Shopping</a>
-                </div>
-            </div>
-        </section>
-
-        <!--========== ACCESSORIES ==========-->
-        <section class="accessory section bd-container" id="accessory">
-            <h2 class="section-title">New Christmas <br> Accessories</h2>
-            <div class="accessory__container bd-grid">
-
-                <div class="accessory__content">
-                    <img src="assets/img/accessory1.png" alt="" id="accessory__img">
-                    <h3 class="accessory__title">Snow Globe</h3>
-                    <span class="accessory__category">Accessory</span>
-                    <span class="accessory__preci">$19.45</span>
-                    <a href="#" class="button accessory__button"><i class="bx bx-heart"></i></a>
-                </div>
-
-                <div class="accessory__content">
-                    <img src="assets/img/accessory2.png" alt="" id="accessory__img">
-                    <h3 class="accessory__title">Candy</h3>
-                    <span class="accessory__category">Accessory</span>
-                    <span class="accessory__preci">$2.45</span>
-                    <a href="#" class="button accessory__button"><i class="bx bx-heart"></i></a>
-                </div>
-
-                <div class="accessory__content">
-                    <img src="assets/img/accessory3.png" alt="" id="accessory__img">
-                    <h3 class="accessory__title">Angel</h3>
-                    <span class="accessory__category">Accessory</span>
-                    <span class="accessory__preci">$19.45</span>
-                    <a href="#" class="button accessory__button"><i class="bx bx-heart"></i></a>
-                </div>
-
-                <div class="accessory__content">
-                    <img src="assets/img/accessory4.png" alt="" id="accessory__img">
-                    <h3 class="accessory__title">Sphere</h3>
-                    <span class="accessory__category">Accessory</span>
-                    <span class="accessory__preci">$19.45</span>
-                    <a href="#" class="button accessory__button"><i class="bx bx-heart"></i></a>
-                </div>
-
-                <div class="accessory__content">
-                    <img src="assets/img/accessory5.png" alt="" id="accessory__img">
-                    <h3 class="accessory__title">Surprise Gift</h3>
-                    <span class="accessory__category">Accessory</span>
-                    <span class="accessory__preci">$19.45</span>
-                    <a href="#" class="button accessory__button"><i class="bx bx-heart"></i></a>
-                </div>
-
-            </div>
-        </section>
-
-
-        <!--========== CONTACT ==========-->
-        <section class="contact section" id="contact">
-            <div class="contact__container bd-container bd-grid">
-                <div class="contact__content">
-                    <h2 class="section-title-center contact__title">Send Gift Now</h2>
-                    <p class="contact__description">Start giving away before the holidays are over. Write the home
-                        address of the person who will send the gift.</p>
-                    <form action="">
-                        <div class="contact__direction">
-                            <div class="contact__field">
-                                <input type="text" placeholder="Họ và tên" class="contact__input">
-                                <input type="text" placeholder="Số điện thoại" class="contact__input">
-                                <input type="text" placeholder="Email" class="contact__input">
-                            </div>
-                            <div class="contact__button">
-                                <a href="" class="button">Send</a>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="contact__img">
-                    <img src="assets/img/send.png" alt="">
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!--========== FOOTER ==========-->
-    <footer class="footer section">
-        <div class="footer__container bd-container bd-grid">
-            <div class="footer__content">
-                <h3 class="footer__title">
-                    <a href="" class="footer__logo">Christmas Gift</a>
-                </h3>
-                <p class="footer__description">I sent a gift and it gives <br> happiness</p>
-            </div>
-
-            <div class="footer__content">
-                <h3 class="footer__title">Our Services</h3>
-                <ul>
-                    <li><a href="#" class="footer__link">Pricing</a></li>
-                    <li><a href="#" class="footer__link">Discounts</a></li>
-                    <li><a href="#" class="footer__link">Shipping mode</a></li>
-                </ul>
-            </div>
-
-
-            <div class="footer__content">
-                <h3 class="footer__title">Our Company</h3>
-                <ul>
-                    <li><a href="#" class="footer__link">Blog</a></li>
-                    <li><a href="#" class="footer__link">Account us</a></li>
-                    <li><a href="#" class="footer__link">Our mission</a></li>
-                </ul>
-            </div>
-
-            <div class="foooter__content">
-                <h3 class="footer__title">Social</h3>
-                <a href="#" class="footer__social"><i class="bx bxl-facebook-circle"></i></a>
-                <a href="#" class="footer__social"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="footer__social"><i class="bx bxl-instagram-alt"></i></a>
-            </div>
-
+  <!-- overlay -->
+  <section id="overlay"></section>
+  <!-- header -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <!-- logo -->
+        <div class="navbar__logo">
+          <img src="./img/logo.png" alt="website logo" />
         </div>
-        <p class="footer__copy">&#169; 2024 KyoDev. All right reserved</p>
-    </footer>
-
-    <!--========== SCROLL REVEAL ==========-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!--========== MAIN JS ==========-->
-    <script src="assets/js/main.js"></script>
+        <!-- links -->
+        <ul class="navbar__links">
+          <li class="navbar__link"><a href="#works">Giới thiệu</a></li>
+          <li class="navbar__link"><a href="#things">Khóa học</a></li>
+          <a href="#footer"><button class="navbar__btn">Liên hệ</button></a>
+        </ul>
+        <!-- menu button -->
+        <div class="navbar__icons">
+          <div class="navbar__icon"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- banner -->
+  <section id="banner">
+    <div class="container">
+      <!-- img -->
+      <div class="banner__img">
+        <img src="./img/banner-img.jpg" alt="illustration of women" />
+      </div>
+      <!-- heading -->
+      <div class="banner__heading">
+        <h1>Hello, I'm Nguyen Van Thin</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ab, soluta doloribus beatae ut recusandae nemo
+          cupiditate excepturi sapiente, illo saepe. Labore quaerat facere eligendi temporibus quae autem totam
+          aspernatur incidunt distinctio omnis nemo repellat suscipit placeat a quo aut nulla quia excepturi inventore
+          in qui, eaque tenetur adipisci? Consequuntur repellat eveniet laboriosam, cum vel, aut numquam ratione sint
+          sit asperiores, praesentium illo omnis vitae voluptatem similique. Hic maxime culpa sed voluptas eveniet
+          architecto quae reiciendis aliquam, facere veritatis saepe dicta nulla minus consequuntur incidunt cupiditate
+          cum? Aut dolorem possimus nostrum quod rerum voluptatum vel, neque accusantium eum libero tempora, qui quas
+          debitis aliquam amet placeat vero beatae quae, architecto aperiam. Temporibus molestias laborum harum dolores
+          nam corporis magni eligendi? Nemo perspiciatis iste suscipit debitis numquam. Aspernatur beatae expedita
+          voluptate dicta optio accusamus, fuga libero odio iure illum vitae assumenda saepe commodi dignissimos omnis
+          quos tenetur ad blanditiis voluptates eligendi?
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- things -->
+  <section id="things">
+    <div class="container">
+      <!-- heading -->
+      <h2>Thông tin khóa học</h2>
+      <!-- item 1 -->
+      <div class="things__item">
+        <!-- img -->
+        <img src="./img/things-item-1.png" alt="illustration of women" />
+        <!-- text -->
+        <div class="things__item--heading">
+          <h3>Lorem Ispum</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            consequatur provident, culpa quaerat fugit dolorem illum
+            repellendus quas quasi obcaecati quia aliquid odit! Vitae, non?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- works -->
+  <section id="works">
+    <div class="container">
+      <!-- heading -->
+      <h2>Recent Works</h2>
+      <!-- img -->
+      <div class="works__img">
+        <div class="works__img--single">
+          <img src="./img/work-1.png" alt="bag" />
+        </div>
+        <div class="works__img--single">
+          <img src="./img/work-2.png" alt="plate" />
+        </div>
+        <div class="works__img--single">
+          <img src="./img/work-3.png" alt="women" />
+        </div>
+        <div class="works__img--single">
+          <img src="./img/work-4.png" alt="piggy bank" />
+        </div>
+      </div>
+      <!-- btn -->
+      <div class="works__btn">
+        <a href="#"><button>View Works</button></a>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer id="footer">
+    <div class="container">
+      <!-- dec -->
+      <div class="footer__dec">
+        <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+      </div>
+      <!-- img -->
+      <div class="footer__img">
+        <img src="./img/footer-img.png" alt="illustration of women" />
+      </div>
+      <!-- heading -->
+      <div class="footer__heading">
+        <h1>Ready to make something amazing?</h1>
+        <!-- contact -->
+        <div class="footer__contact">
+          <a href="tel:901234567">
+            <i class="fas fa-phone-alt"></i>
+            <p>90-123-4567</p>
+          </a>
+          <a href="mailto:info@me.com">
+            <i class="fas fa-envelope"></i>
+            <p>info@me.com</p>
+          </a>
+        </div>
+        <div class="banner__socials">
+          <a href="#"><i class="fab fa-dribbble"></i></a>
+          <a href="#"><i class="fab fa-behance"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/28c0af3030.js" crossorigin="anonymous"></script>
+  <!-- main js -->
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
